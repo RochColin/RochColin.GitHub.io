@@ -44,7 +44,7 @@ aside{
   margin-left: auto;
   margin-right: auto;
   padding-left: 25px;
-	width: 400px;
+	width: 360px;
 	height: 20px;
   padding-bottom: 70px;}
 @media screen and (max-width: 400px) {
@@ -54,7 +54,7 @@ aside{
     margin-left: auto;
     margin-right: auto;
     margin-left: -20px;
-  	width: 400px;
+  	width: 360px;
   	height: 20px;
     padding-bottom: 70px;}}
     @media screen and (max-width: 360px) {
@@ -63,9 +63,9 @@ aside{
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-left: -40px;
-      	width: 200px;
-      	height: 10px;
+        margin-left: -25px;
+      	width: 360px;
+      	height: 20px;
         padding-bottom: 70px;}}
 nav a{
 	font-size: 25px;
@@ -170,8 +170,7 @@ ul{
   padding: 0;
   overflow: hidden;}
 li{
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
   float: left;}
 li a{
   display: block;
@@ -520,12 +519,4 @@ header{
   width:280px;
   height: 140px;
   position: absolute;}
-}
-@media screen and (max-width: 400px){
-aside{
-  overflow:hidden;
-  float: left;
-  width: 400px;
-  height: 20px;
-  padding-bottom: 70px;}
 }
