@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Tableaux</title>
+
+</head>
+<body>
+
+<table border="0" width="800px" height="400px" cellspacing="0">
+  <tr style="background:#f00;" height="100px">
+    <td colspan="2">Colin Roch</td>
+  </tr>
+<tr>
+  <td valign="top" rowspan"2"><img src="images/photospidermancopy.jpg" width="100px" height="150px"></td>
+  <td>Lorem ipsum dolor sit amet, nulla vehicula maecenas semper imperdiet quam amet, vitae ornare adipiscing, magna eget suspendisse non integer sit nisi, pellentesque orci nisl dignissim, morbi tortor. Quam erat purus quam sodales vel aliquet, tempus tempus quam dolores, mollis donec aliquam, nibh non vulputate volutpat curabitur. Nunc tempor donec adipiscing metus vehicula dapibus. Luctus vitae suscipit, ipsum semper id nulla, et porta ante lectus ornare, sapien et. Adipiscing semper, aliquam morbi posuere fringilla sociosqu ut, ipsum pellentesque fringilla amet amet. Sit et sed eu eget mauris luctus, pellentesque fermentum id, diam tristique vel. Lacus morbi est, lectus ipsum vel, sed commodo libero fermentum metus. Mauris donec nulla, eget integer deserunt arcu sociis, tempor ultrices habitasse ligula volutpat id dolores, nec felis varius orci urna curabitur. Ultrices non, orci suspendisse risus parturient odio fermentum.</td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td>PIED DE PAGE</td>
+</tr>
+</table>
+
+</body>
+</html>

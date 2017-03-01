@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<meta charset="utf-8">
+<title>Colin Roch - Contact</title>
+</head>
+<body>
+<main>
+  <div id="logo"><img src="images/rdesignscom.png" width="450" height="150" alt="colin roch logo"></div>
+  <header></header>
+<nav>
+  <ul>
+   <li><a href="index.html">Home&nbsp;</a></li>
+   <li><a href="gaming.html">Gaming&nbsp;</a></li>
+   <li><a href="portfolio.html">Portfolio&nbsp;</a></li>
+   <li><a href="about.html">About&nbsp;</a></li>
+   <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="innercontact">
+  <div class="contact-form">
+<form id="contact-us" method="post" action="#">
+  <div class="fillout">
+  <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+  <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+  <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+</div>
+<div class="message">
+  <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+</div>
+<div class="send">
+  <button type="submit" id="submit" name="submit" class="form-btn semibold">Send</button>
+</div>
+<div class="clear"></div>
+</form>
+<div class="mail-message-area">
+</div>
+</div>
+</div>
+</div>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">☰</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="gaming.html">Gaming</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");}
+  window.onclick = function(event) {
+if (!event.target.matches('.dropbtn')) {
+var dropdowns = document.getElementsByClassName("dropdown-content");
+var i;
+for (i = 0; i < dropdowns.length; i++) {
+var openDropdown = dropdowns[i];
+if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+   }
+  }
+ }
+}
+</script>
+<div id="texte">Stay In Touch!</div>
+<aside>
+  <li><a href="https://www.youtube.com/channel/UCKyk4ggi4dk2bgsCWkCt8Pw" target="frootloops"></a></li>
+  <li id="xbox"><a href="https://account.xbox.com/en-CA/Profile?xr=mebarnav" target="frootloops"></a></li>
+  <li id="face"><a href="https://www.facebook.com/colinljroch" target="frootloops"></a></li>
+  <li id="insta"><a href="https://www.instagram.com/rochcolin/?hl=en" target="frootloops"></a></li>
+  <li id="twit"><a href="https://twitter.com/RochColin" target="frootloops"></a></li>
+</aside>
+<footer>© Colin Roch Communication Multimédia 2017</footer>
+</main>
+</body>
+</html>

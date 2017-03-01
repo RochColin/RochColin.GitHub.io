@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<meta charset="utf-8">
+<title>Colin Roch - Gaming</title>
+</head>
+<body>
+<main>
+<div id="logo"><img src="images/rdesignscom.png" width="450" height="150" alt="colin roch logo"></div>
+<header></header>
+<nav>
+<ul>
+ <li><a href="index.html">Home&nbsp;</a></li>
+ <li><a href="gaming.html">Gaming&nbsp;</a></li>
+ <li><a href="portfolio.html">Portfolio&nbsp;</a></li>
+ <li><a href="about.html">About&nbsp;</a></li>
+ <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<div class="videoWrapper">
+  <iframe width="560" height="349" src="https://www.youtube.com/embed/iQFRuBWKMl0" frameborder="0" allowfullscreen class="video"></iframe>
+  </div>
+  <div class="videoWrapper">
+  <iframe width="560" height="349" src="https://www.youtube.com/embed/Dh6UibQbMNw" frameborder="0" allowfullscreen class="video2"></iframe>
+</div>
+<div class="videoWrapper">
+  <iframe width="560" height="349" src="https://www.youtube.com/embed/L5bXYKBlHcQ" frameborder="0" allowfullscreen class="video3"></iframe>
+</div>
+<div id="box">
+<div id="hulk"><a href="https://account.xbox.com/en-CA/Profile?xr=mebarnav" target="frootloops"><img src="images/hulkpic2.jpg" width="100%" alt="hulk wallpaper"></a></div>
+<div id="amped"><a href="http://gamebattles.majorleaguegaming.com/xboxone/halo-5-guardians/team/triggers-down" target="frootloops"><img src="images/ampedgaming.png" width="100%" alt="ampedgaming wallpaper"></a></div>
+</div>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">☰</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="gaming.html">Gaming</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");}
+  window.onclick = function(event) {
+if (!event.target.matches('.dropbtn')) {
+var dropdowns = document.getElementsByClassName("dropdown-content");
+var i;
+for (i = 0; i < dropdowns.length; i++) {
+var openDropdown = dropdowns[i];
+if (openDropdown.classList.contains('show')) {
+  openDropdown.classList.remove('show');
+   }
+  }
+ }
+}
+</script>
+<div id="texte">Stay In Touch!</div>
+<aside>
+  <li><a href="https://www.youtube.com/channel/UCKyk4ggi4dk2bgsCWkCt8Pw" target="frootloops"></a></li>
+  <li id="xbox"><a href="https://account.xbox.com/en-CA/Profile?xr=mebarnav" target="frootloops"></a></li>
+  <li id="face"><a href="https://www.facebook.com/colinljroch" target="frootloops"></a></li>
+  <li id="insta"><a href="https://www.instagram.com/rochcolin/?hl=en" target="frootloops"></a></li>
+  <li id="twit"><a href="https://twitter.com/RochColin" target="frootloops"></a></li>
+</aside>
+<footer>© Colin Roch Communication Multimédia 2017</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,472 @@
+main{
+  font-family: 'Poiret One', cursive;
+	width: 100%;
+	position: relative;}
+body{
+	font-family: 'Poiret One', cursive;
+	margin: 0;
+	min-height: 100vh;
+	background-color:black;
+	background-repeat: no-repeat;}
+header{
+	width:100%;
+	height:200px;
+	margin-bottom:0px;
+	text-align:left;
+	font-size:80px;
+	color:##FFFFFF;
+  padding-top: 10px;
+	padding-bottom:0px;
+	top:0px;
+	font-family: 'Poiret One', cursive;
+	overflow:hidden;
+	margin-right: auto;}
+footer{
+	width:100%;
+	height:25px;
+	color:#FFFFFF;
+	overflow:hidden;
+  text-align: center;
+	margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;}
+nav{
+	width:100%;
+	height: 0px;
+	overflow:hidden;
+	position: absolute;
+	padding-top:0px;
+	padding-bottom: 65px;
+	top:160px;}
+aside{
+	overflow:hidden;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+	width: 400px;
+	height: 20px;
+  padding-bottom: 70px;}
+nav a{
+	font-size: 25px;
+	text-decoration:none;
+	display: block;}
+nav a:link{color:#FFFFFF;}
+nav a:visited{color:#FFFFFF;}
+nav a:hover{color:#FFFFFF;}
+nav a:active{color:#FFFFFF;}
+a{}
+a:link{color:#FFFFFF;}
+a:visited{color:#FFFFFF;}
+a:hover{color:#FFFFFF;}
+a:active{}
+aside a{
+	width: 50%;
+	height:20px;
+	display:block;}
+aside	a:link{
+	background-image: url(images/sprits.png);
+	background-position-y:0px;
+	background-position-x:0px;}
+aside	a:visited{
+	background-image: url(images/sprits.png);
+	background-position-y:0px;
+	background-position-x:0px;}
+aside	a:hover{
+	background-image: url(images/sprits.png);
+	background-position-y:-50px;
+	background-position-x:0px;}
+aside	a:active{
+	background-image: url(images/sprits.png);
+	background-position-y:-100px;
+	background-position-x:0px;}
+aside #xbox a:link{
+	background-position-y:0px;
+	background-position-x:-50px;
+	background-image: url(images/sprits.png);}
+aside #xbox a:visited{
+	background-position-y:0px;
+	background-position-x:-50px;
+	background-image: url(images/sprits.png);}
+aside #xbox a:hover{
+	background-position-y:-50px;
+	background-position-x:-50px;
+	background-image: url(images/sprits.png);}
+aside #xbox a:active{
+	background-position-y:-100px;
+	background-position-x:-50px;
+	background-image: url(images/sprits.png);}
+aside #face a:link{
+	background-position-y:0px;
+	background-position-x:-100px;
+	background-image: url(images/sprits.png);}
+aside #face a:visited{
+	background-position-y:0px;
+	background-position-x:-100px;
+	background-image: url(images/sprits.png);}
+aside #face a:hover{
+	background-position-y:-50px;
+	background-position-x:-100px;
+	background-image: url(images/sprits.png);}
+aside #face a:active{
+	background-position-y:-100px;
+	background-position-x:-100px;
+	background-image: url(images/sprits.png);}
+aside #insta a:link{
+	background-position-y:0px;
+	background-position-x:-150px;
+	background-image: url(images/sprits.png);}
+aside #insta a:visited{
+	background-position-y:0px;
+	background-position-x:-150px;
+	background-image: url(images/sprits.png);}
+aside #insta a:hover{
+	background-position-y:-50px;
+	background-position-x:-150px;
+	background-image: url(images/sprits.png);}
+aside #insta a:active{
+	background-position-y:-100px;
+	background-position-x:-150px;
+	background-image: url(images/sprits.png);}
+aside #twit a:link{
+	background-position-y:0px;
+	background-position-x:-200px;
+	background-image: url(images/sprits.png);}
+aside #twit a:visited{
+	background-position-y:0px;
+	background-position-x:-200px;
+	background-image: url(images/sprits.png);}
+aside #twit a:hover{
+	background-position-y:-50px;
+	background-position-x:-200px;
+	background-image: url(images/sprits.png);}
+aside #twit a:active{
+  background-position-y:-100px;
+  background-position-x:-200px;
+  background-image: url(images/sprits.png);}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;}
+li{
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;}
+li a{
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  font-size:18px;
+  padding: 14px 16px;
+  text-decoration: none;}
+nav li a:hover{
+  background-color: #3498DB;}
+nav li a:active{
+  background-color: #5DADE2;}
+#text{
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );}
+#texte{
+	width: 50%;
+	height:40px;
+  color: #FFFFFF;
+	overflow:hidden;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+	font-size: 40px;
+	font-family: 'Poiret One', cursive;}
+#rdesigns{
+  margin: auto;
+	width:100%;
+	margin-top:0px;
+	margin-bottom:0px;}
+#logo{
+	width:50%;
+  height: 150px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 40px;}
+#hulk{
+  width:50%;
+  margin-top:0px;
+  margin-bottom:0px;
+  float:left;}
+#amped{
+  width:50%;
+  margin-top:0px;
+  margin-left: 50%;
+  margin-bottom:0px;}
+#box{
+  width: 100%;
+  height:auto;
+  background: #000;}
+#box2{
+  width: 100%;
+  height:auto;
+  background: #fff;}
+#email{
+  width: 100%;
+  font-size: 50px;
+  background-color: #FFFFFF;}
+.innercontact{
+  width: 100%;
+  height: auto;
+  background-image: url(images/blueback.jpg);}
+#contact{
+  padding:10px 0 10px;}
+.contact-text{
+  margin:45px auto;}
+.mail-message-area{
+  width:100%;
+  height: auto;
+  padding:0 15px;
+  background-color: #fff;}
+.mail-message{
+  width: 100%;
+  background:rgba(255,255,255, 0.8) !important;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  transition: all 0.7s;
+  margin:0 auto;
+  border-radius: 0;}
+.not-visible-message{
+  height:0px;
+  opacity: 0;}
+.visible-message{
+  height:auto;
+  opacity: 1;
+  margin:25px auto 0;}
+.form{
+  width: 100%;
+  padding: 15px;
+  background:#f8f8f8;
+  border:1px solid rgba(0, 0, 0, 0.075);
+  margin-bottom:25px;
+  color:#727272 !important;
+  font-size:13px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;}
+.fillout{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 80%;}
+.message{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 80%;}
+.send{
+  padding-bottom: 20px;}
+.form:hover{
+  border:1px solid #3498DB;}
+.form:focus{
+  color: white;
+  outline: none;
+  border:1px solid #5DADE2;}
+.textarea{
+  height: 200px;
+  max-height: 200px;
+  max-width: 100%;
+  padding-left: 20px;}
+.button{
+  padding:8px 12px;
+  background:#0A5175;
+  display: block;
+  width:120px;
+  margin:10px 0 0px 0;
+  border-radius:3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align:center;
+  font-size:0.8em;
+  box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);}
+.button:hover{
+  background:#3498DB;
+  color:white;}
+.form-btn{
+  width:180px;
+  display: block;
+  height: auto;
+  padding:15px;
+  color:#fff;
+  background:#000;
+  border:none;
+  border-radius:3px;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin:auto;
+  box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);}
+.form-btn:hover{
+  background:#3498DB;
+  color: white;
+  border:none;}
+.form-btn:active{
+  background:#5DADE2;}
+.videoWrapper{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;}
+.videoWrapper iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;}
+.container{
+  width: 1300px;
+  height: auto;
+  margin: 0 auto -100px auto;
+  padding-bottom: 100px;
+  padding-top: 10px;}
+@media screen and (max-width: 1300px) {
+  .container {width: 840px;}}
+@media screen and (max-width: 840px) {
+  .container {width: 560px;}}
+.container ul{
+  list-style-type: none;}
+.container li{
+  float: left;
+  position: relative;
+  width: 280px;
+  height: 190px;
+  overflow: hidden;}
+.container li:hover{
+  cursor: pointer;}
+@media screen and (max-width: 560px) {
+  .container {width: 280px;}}
+.container li p{
+  color: transparent;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 190px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;}
+.container li:hover p{
+  border-style: solid;
+  border-color: #3498DB;}
+.container li:hover img{
+  border-style: solid;
+  border-color: #3498DB;}
+.container img{
+  width: 280px;
+  height: 180px;}
+.container li:hover img{
+  border-style: solid;
+  border-color: #3498DB;}
+.dropbtn{
+  background-color: #000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;}
+.dropbtn:hover, .dropbtn:focus{
+  background-color: #3498DB;
+  outline: 0;}
+.dropbtn:active, .dropbtn:focus{
+  background-color: #5DADE2;}
+.dropdown {
+  position: absolute;
+  top:105px;
+  left:0;
+  display: inline-block;
+  margin-bottom: 40px;
+  display: none;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;}
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;}
+.dropdown a:hover {background-color: #3498DB;}
+.dropdown a:active {background-color: #5DADE2;}
+.show {display:block;}
+@media screen and (min-width: 1200px) {
+#logo{
+  width:50%;
+  height: 150px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 40px;}
+}
+@media screen and (max-width: 650px){
+#logo img{
+  left: 100px;
+  width:450;
+  height: 150px;
+  position: absolute;}
+}
+@media screen and (max-width: 650px){
+nav{
+  display: none;}
+}
+@media screen and (max-width: 650px){
+.dropdown{
+  display:block;}
+}
+@media screen and (max-width: 650px){
+header{
+  width:100%;
+  height:150px;}
+}
+@media screen and (max-width: 550px){
+#logo img{
+  left: 80px;
+  width:350px;
+  height: 150px;
+  position: absolute;}
+}
+@media screen and (max-width: 450px){
+#logo img{
+  left: 60px;
+  width:300px;
+  height: 140px;
+  position: absolute;}
+}
+@media screen and (max-width: 400px){
+#logo img{
+  left: 50px;
+  width:280px;
+  height: 140px;
+  position: absolute;}
+}
+@media screen and (max-width: 400px){
+aside{
+  overflow:hidden;
+  float: left;
+  width: 400px;
+  height: 20px;
+  padding-bottom: 70px;}
+}
