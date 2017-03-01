@@ -401,7 +401,7 @@ nav li a:active{
 @media screen and (max-width: 400px) {
   .container ul{margin-left: -70px;}}
 @media screen and (max-width: 360px) {
-  .container ul{margin-left: -95px;}}
+  .container ul{margin-left: -100px;}}
 .container ul{
   padding-left: 100px;
   list-style-type: none;}
