@@ -475,7 +475,7 @@ nav li a:active{
   list-style-type: none;}
 .container li{
   position: relative;
-  width: 280px;
+  width: 290px;
   height: 190px;
   overflow: hidden;}
 .container li:hover{
@@ -540,7 +540,7 @@ nav li a:active{
 .dropdown a:hover {background-color: #3498DB;}
 .dropdown a:active {background-color: #5DADE2;}
 .show {display:block;}
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
 #logo{
   width:50%;
   height: 150px;
