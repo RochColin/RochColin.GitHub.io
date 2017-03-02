@@ -57,16 +57,16 @@ aside{
   	width: 360px;
   	height: 20px;
     padding-bottom: 70px;}}
-    @media screen and (max-width: 360px) {
-      aside{
-      	overflow:hidden;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-left: -10px;
-      	width: 360px;
-      	height: 20px;
-        padding-bottom: 70px;}}
+@media screen and (max-width: 360px) {
+  aside{
+    overflow:hidden;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: -10px;
+    width: 360px;
+    height: 20px;
+    padding-bottom: 70px;}}
 nav a{
 	font-size: 25px;
 	text-decoration:none;
@@ -193,6 +193,46 @@ nav li a:active{
   padding-bottom: 20px;
   background-color: #FFFFFF;
   width: calc( 100% - 40px );}
+#text2{
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );
+  display:none;}
+#text3{
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );
+  display:none;}
+#text4{
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );
+  display:none;}
+#text5{
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );
+  display:none;}
 #texte{
 	width: 50%;
 	height:40px;
@@ -206,31 +246,31 @@ nav li a:active{
 	font-size: 40px;
 	font-family: 'Poiret One', cursive;}
 @media screen and (max-width: 480px) {
-  #texte{
-  	width: 60%;
-  	height:40px;
-    color: #FFFFFF;
-  	overflow:hidden;
-    padding-bottom: 10px;
-    text-align: center;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  	font-size: 40px;
-  	font-family: 'Poiret One', cursive;}}
-    @media screen and (max-width: 450px) {
-      #texte{
-      	width: 70%;
-      	height:40px;
-        color: #FFFFFF;
-      	overflow:hidden;
-        padding-bottom: 10px;
-        text-align: center;
-        margin-top: 100px;
-        margin-left: auto;
-        margin-right: auto;
-      	font-size: 40px;
-      	font-family: 'Poiret One', cursive;}}
+#texte{
+  width: 60%;
+  height:40px;
+  color: #FFFFFF;
+  overflow:hidden;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-family: 'Poiret One', cursive;}}
+@media screen and (max-width: 450px) {
+#texte{
+  width: 70%;
+  height:40px;
+  color: #FFFFFF;
+  overflow:hidden;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-family: 'Poiret One', cursive;}}
 #rdesigns{
   margin: auto;
 	width:100%;
@@ -242,13 +282,13 @@ nav li a:active{
   position: absolute;
   padding-top: 10px;
   padding-left: 40px;}
-  #logotwo{
-      width:50%;
-      height: 150px;
-      position: absolute;
-      padding-top: 10px;
-      padding-left: 40px;
-      display: none;}
+#logotwo{
+  width:50%;
+  height: 150px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 40px;
+  display: none;}
 #hulk{
   width:50%;
   margin-top:0px;
@@ -272,11 +312,25 @@ nav li a:active{
   font-size: 50px;
   background-color: #FFFFFF;}
 #printcontact{
-  display: none;
-}
+  display: none;}
+#printcontact2{
+  display: none;}
+#printcontact3{
+  display: none;}
+#printcontact4{
+  display: none;}
+#printcontact5{
+  display: none;}
 #qr{
-  display:none;
-}
+  display:none;}
+#qr2{
+  display:none;}
+#qr3{
+  display:none;}
+#qr4{
+  display:none;}
+#qr5{
+  display:none;}
 .innercontact{
   width: 100%;
   height: auto;
@@ -543,56 +597,102 @@ header{
   position: absolute;}
 }
 @media only print {
-  #text{
-    width: 100%;
-    height: auto;
-    margin-top: -70px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    background-color: #FFFFFF;
-    width: calc( 100% - 40px );}
-  nav{
-    display: none;
-    }
-  #logo{
-    display: none;
-    }
-  #logotwo{
-    display: block;
-    }
-  aside{
-    display: none;
-    }
-    #texte{
-      display: none;
-    }
-    #printcontact{
-      display: block;
-    }
-    #qr{
-      display:block;
-    }
-    #rdesigns{
-      display: none;
-    }
-    #box{
-      display: none;
-    }
-    .dropdown{
-      display: none;
-    }
-    script{
-      display: none;
-    }
-    .videoWrapper{
-      display: none;
-    }
-    .container{
-      display: none;
-    }
-    .innercontact{
-      display: none;
-    }
-  }
+#text{
+  width: 100%;
+  height: auto;
+  margin-top: -70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );}
+#text2{
+  width: 100%;
+  height: auto;
+  margin-top: -70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );
+  display: block;}
+#text3{
+  width: 100%;
+  height: auto;
+  margin-top: -70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );
+  display: block;}
+#text4{
+  width: 100%;
+  height: auto;
+  margin-top: -70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );
+  display: block;}
+#text5{
+  width: 100%;
+  height: auto;
+  margin-top: -70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  width: calc( 100% - 40px );
+  display: block;}
+nav{
+  display: none;}
+#logo{
+  display: none;}
+#logotwo{
+  display: block;}
+aside{
+  display: none;}
+#texte{
+  display: none;}
+#printcontact{
+  display: block;}
+#printcontact2{
+  display: block;}
+#printcontact3{
+  display: block;}
+#printcontact4{
+  display: block;}
+#printcontact5{
+  display: block;}
+#qr{
+  display:block;}
+#qr2{
+  display:block;}
+#qr3{
+  display:block;}
+#qr4{
+  display:block;}
+#qr5{
+  display:block;}
+#rdesigns{
+  display: none;}
+#box{
+  display: none;}
+.dropdown{
+  display: none;}
+script{
+  display: none;}
+.videoWrapper{
+  display: none;}
+.container{
+  display: none;}
+.innercontact{
+  display: none;}
+}
