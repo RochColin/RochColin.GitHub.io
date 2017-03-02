@@ -168,6 +168,7 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-right: 30px;
   overflow: hidden;}
 li{
   padding-left: 30px;
@@ -241,6 +242,13 @@ nav li a:active{
   position: absolute;
   padding-top: 10px;
   padding-left: 40px;}
+  #logotwo{
+      width:50%;
+      height: 150px;
+      position: absolute;
+      padding-top: 10px;
+      padding-left: 40px;
+      display: none;}
 #hulk{
   width:50%;
   margin-top:0px;
@@ -263,6 +271,12 @@ nav li a:active{
   width: 100%;
   font-size: 50px;
   background-color: #FFFFFF;}
+#printcontact{
+  display: none;
+}
+#qr{
+  display:none;
+}
 .innercontact{
   width: 100%;
   height: auto;
@@ -521,3 +535,64 @@ header{
   height: 130px;
   position: absolute;}
 }
+@media screen and (max-width: 360px){
+#logo img{
+  left: 50px;
+  width:280px;
+  height: 120px;
+  position: absolute;}
+}
+@media only print {
+  #text{
+    width: 100%;
+    height: auto;
+    margin-top: -70px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    width: calc( 100% - 40px );}
+  nav{
+    display: none;
+    }
+  #logo{
+    display: none;
+    }
+  #logotwo{
+    display: block;
+    }
+  aside{
+    display: none;
+    }
+    #texte{
+      display: none;
+    }
+    #printcontact{
+      display: block;
+    }
+    #qr{
+      display:block;
+    }
+    #rdesigns{
+      display: none;
+    }
+    #box{
+      display: none;
+    }
+    .dropdown{
+      display: none;
+    }
+    script{
+      display: none;
+    }
+    .videoWrapper{
+      display: none;
+    }
+    .container{
+      display: none;
+    }
+    .innercontact{
+      display: none;
+    }
+  }
